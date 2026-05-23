@@ -1,0 +1,8 @@
+name,protocol,port,source_port,description,device_group
+http,TCP,80,,HTTP service,DG-PEP
+https,TCP,443,,HTTPS service,DG-PEP
+dns,UDP,53,,DNS service,DG-PHE-DC
+ssh,TCP,22,,SSH service,DG-PHE-DC
+custom-app,TCP,8080,2000,Custom app with source port,DG-PEP
+smtp,TCP,25,,SMTP service,DG-PHE-DC
+mysql,TCP,3306,,MySQL service,DG-PEP
